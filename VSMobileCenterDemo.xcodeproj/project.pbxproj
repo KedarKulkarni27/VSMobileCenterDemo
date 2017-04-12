@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435EF9A2F37DB5B2586BC4C7 /* libPods-VSMobileCenterDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 334131C8012C104B3ACE32C3 /* libPods-VSMobileCenterDemoUITests.a */; };
+		4D95D3EB9E8AC1EE9732F70B /* libPods-VSMobileCenterDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E990957B5C6D8697D9A8EF /* libPods-VSMobileCenterDemoTests.a */; };
 		B988F1241E9E10D200C18B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B988F1231E9E10D200C18B21 /* main.m */; };
 		B988F1271E9E10D200C18B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B988F1261E9E10D200C18B21 /* AppDelegate.m */; };
 		B988F12A1E9E10D200C18B21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B988F1291E9E10D200C18B21 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		B988F1321E9E10D200C18B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B988F1301E9E10D200C18B21 /* LaunchScreen.storyboard */; };
 		B988F13D1E9E10D200C18B21 /* VSMobileCenterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B988F13C1E9E10D200C18B21 /* VSMobileCenterDemoTests.m */; };
 		B988F1481E9E10D200C18B21 /* VSMobileCenterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B988F1471E9E10D200C18B21 /* VSMobileCenterDemoUITests.m */; };
+		B988F1571E9E26CC00C18B21 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B988F1561E9E26CC00C18B21 /* WelcomeViewController.m */; };
+		CE5CFCFC43407E3AC94744CB /* libPods-VSMobileCenterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17431ED16CFB99E2A11DCCE /* libPods-VSMobileCenterDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25E990957B5C6D8697D9A8EF /* libPods-VSMobileCenterDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VSMobileCenterDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		334131C8012C104B3ACE32C3 /* libPods-VSMobileCenterDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VSMobileCenterDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410ECE591C9881AC8B0570B9 /* Pods-VSMobileCenterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSMobileCenterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSMobileCenterDemo/Pods-VSMobileCenterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5549E7A8E7DB1AB57012572C /* Pods-VSMobileCenterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSMobileCenterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSMobileCenterDemo/Pods-VSMobileCenterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		799184A5F15E98D448FF7626 /* Pods-VSMobileCenterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSMobileCenterDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSMobileCenterDemoTests/Pods-VSMobileCenterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		919E886516D01230C817AEF3 /* Pods-VSMobileCenterDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSMobileCenterDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSMobileCenterDemoUITests/Pods-VSMobileCenterDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		978463048F2ABA6E341F74D3 /* Pods-VSMobileCenterDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSMobileCenterDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSMobileCenterDemoUITests/Pods-VSMobileCenterDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B988F11F1E9E10D200C18B21 /* VSMobileCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSMobileCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B988F1231E9E10D200C18B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B988F1251E9E10D200C18B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		B988F1431E9E10D200C18B21 /* VSMobileCenterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSMobileCenterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B988F1471E9E10D200C18B21 /* VSMobileCenterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSMobileCenterDemoUITests.m; sourceTree = "<group>"; };
 		B988F1491E9E10D200C18B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B988F1551E9E26CC00C18B21 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		B988F1561E9E26CC00C18B21 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		F17431ED16CFB99E2A11DCCE /* libPods-VSMobileCenterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VSMobileCenterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64B0AA919BCA0C67B13A2FB /* Pods-VSMobileCenterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSMobileCenterDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSMobileCenterDemoTests/Pods-VSMobileCenterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5CFCFC43407E3AC94744CB /* libPods-VSMobileCenterDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D95D3EB9E8AC1EE9732F70B /* libPods-VSMobileCenterDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435EF9A2F37DB5B2586BC4C7 /* libPods-VSMobileCenterDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3422A87A4B09FD550CFC1380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F17431ED16CFB99E2A11DCCE /* libPods-VSMobileCenterDemo.a */,
+				25E990957B5C6D8697D9A8EF /* libPods-VSMobileCenterDemoTests.a */,
+				334131C8012C104B3ACE32C3 /* libPods-VSMobileCenterDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57904A55C1E5403CEE003BAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5549E7A8E7DB1AB57012572C /* Pods-VSMobileCenterDemo.debug.xcconfig */,
+				410ECE591C9881AC8B0570B9 /* Pods-VSMobileCenterDemo.release.xcconfig */,
+				799184A5F15E98D448FF7626 /* Pods-VSMobileCenterDemoTests.debug.xcconfig */,
+				F64B0AA919BCA0C67B13A2FB /* Pods-VSMobileCenterDemoTests.release.xcconfig */,
+				919E886516D01230C817AEF3 /* Pods-VSMobileCenterDemoUITests.debug.xcconfig */,
+				978463048F2ABA6E341F74D3 /* Pods-VSMobileCenterDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B988F1161E9E10D200C18B21 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				B988F13B1E9E10D200C18B21 /* VSMobileCenterDemoTests */,
 				B988F1461E9E10D200C18B21 /* VSMobileCenterDemoUITests */,
 				B988F1201E9E10D200C18B21 /* Products */,
+				57904A55C1E5403CEE003BAD /* Pods */,
+				3422A87A4B09FD550CFC1380 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +148,8 @@
 				B988F1261E9E10D200C18B21 /* AppDelegate.m */,
 				B988F1281E9E10D200C18B21 /* ViewController.h */,
 				B988F1291E9E10D200C18B21 /* ViewController.m */,
+				B988F1551E9E26CC00C18B21 /* WelcomeViewController.h */,
+				B988F1561E9E26CC00C18B21 /* WelcomeViewController.m */,
 				B988F12B1E9E10D200C18B21 /* Main.storyboard */,
 				B988F12E1E9E10D200C18B21 /* Assets.xcassets */,
 				B988F1301E9E10D200C18B21 /* LaunchScreen.storyboard */,
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B988F14C1E9E10D200C18B21 /* Build configuration list for PBXNativeTarget "VSMobileCenterDemo" */;
 			buildPhases = (
+				7F984DED7A71DC2CC700F5B6 /* [CP] Check Pods Manifest.lock */,
 				B988F11B1E9E10D200C18B21 /* Sources */,
 				B988F11C1E9E10D200C18B21 /* Frameworks */,
 				B988F11D1E9E10D200C18B21 /* Resources */,
+				119FB9C36820307AD0C1C8BA /* [CP] Embed Pods Frameworks */,
+				8B6FC065FA2F7862A706DEE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B988F14F1E9E10D200C18B21 /* Build configuration list for PBXNativeTarget "VSMobileCenterDemoTests" */;
 			buildPhases = (
+				0D525A52BEE5DA1D33C43E87 /* [CP] Check Pods Manifest.lock */,
 				B988F1341E9E10D200C18B21 /* Sources */,
 				B988F1351E9E10D200C18B21 /* Frameworks */,
 				B988F1361E9E10D200C18B21 /* Resources */,
+				F608E93B327522E1B6DF6009 /* [CP] Embed Pods Frameworks */,
+				CCA2B2CF435B5C61DB827A82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B988F1521E9E10D200C18B21 /* Build configuration list for PBXNativeTarget "VSMobileCenterDemoUITests" */;
 			buildPhases = (
+				AB8746BDEE4879CB110C876F /* [CP] Check Pods Manifest.lock */,
 				B988F13F1E9E10D200C18B21 /* Sources */,
 				B988F1401E9E10D200C18B21 /* Frameworks */,
 				B988F1411E9E10D200C18B21 /* Resources */,
+				8D15F4563B287DB14653540F /* [CP] Embed Pods Frameworks */,
+				A1E0351C76AB664C041DE279 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +325,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D525A52BEE5DA1D33C43E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		119FB9C36820307AD0C1C8BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSMobileCenterDemo/Pods-VSMobileCenterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F984DED7A71DC2CC700F5B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6FC065FA2F7862A706DEE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSMobileCenterDemo/Pods-VSMobileCenterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D15F4563B287DB14653540F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSMobileCenterDemoUITests/Pods-VSMobileCenterDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E0351C76AB664C041DE279 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSMobileCenterDemoUITests/Pods-VSMobileCenterDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8746BDEE4879CB110C876F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA2B2CF435B5C61DB827A82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSMobileCenterDemoTests/Pods-VSMobileCenterDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F608E93B327522E1B6DF6009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSMobileCenterDemoTests/Pods-VSMobileCenterDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B988F11B1E9E10D200C18B21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B988F12A1E9E10D200C18B21 /* ViewController.m in Sources */,
+				B988F1571E9E26CC00C18B21 /* WelcomeViewController.m in Sources */,
 				B988F1271E9E10D200C18B21 /* AppDelegate.m in Sources */,
 				B988F1241E9E10D200C18B21 /* main.m in Sources */,
 			);
@@ -423,6 +616,7 @@
 		};
 		B988F14D1E9E10D200C18B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5549E7A8E7DB1AB57012572C /* Pods-VSMobileCenterDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
@@ -435,6 +629,7 @@
 		};
 		B988F14E1E9E10D200C18B21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410ECE591C9881AC8B0570B9 /* Pods-VSMobileCenterDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
@@ -447,6 +642,7 @@
 		};
 		B988F1501E9E10D200C18B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799184A5F15E98D448FF7626 /* Pods-VSMobileCenterDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
@@ -460,6 +656,7 @@
 		};
 		B988F1511E9E10D200C18B21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64B0AA919BCA0C67B13A2FB /* Pods-VSMobileCenterDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
@@ -473,6 +670,7 @@
 		};
 		B988F1531E9E10D200C18B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919E886516D01230C817AEF3 /* Pods-VSMobileCenterDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
 				INFOPLIST_FILE = VSMobileCenterDemoUITests/Info.plist;
@@ -485,6 +683,7 @@
 		};
 		B988F1541E9E10D200C18B21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978463048F2ABA6E341F74D3 /* Pods-VSMobileCenterDemoUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
 				INFOPLIST_FILE = VSMobileCenterDemoUITests/Info.plist;
@@ -514,6 +713,7 @@
 				B988F14E1E9E10D200C18B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B988F14F1E9E10D200C18B21 /* Build configuration list for PBXNativeTarget "VSMobileCenterDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +722,7 @@
 				B988F1511E9E10D200C18B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B988F1521E9E10D200C18B21 /* Build configuration list for PBXNativeTarget "VSMobileCenterDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +731,7 @@
 				B988F1541E9E10D200C18B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
