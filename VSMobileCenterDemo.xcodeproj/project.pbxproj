@@ -262,7 +262,7 @@
 					B988F11E1E9E10D200C18B21 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = FQWVPRQEN6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					B988F1371E9E10D200C18B21 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -619,11 +619,14 @@
 			baseConfigurationReference = 5549E7A8E7DB1AB57012572C /* Pods-VSMobileCenterDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Ambekar (RAARKWRAJS)";
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
 				INFOPLIST_FILE = VSMobileCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cuelogic.VSMobileCenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e512737a-07ec-41b2-8575-801804a832da";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_CueWildApp;
 			};
 			name = Debug;
 		};
@@ -632,11 +635,14 @@
 			baseConfigurationReference = 410ECE591C9881AC8B0570B9 /* Pods-VSMobileCenterDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vikrant Labde (FQWVPRQEN6)";
 				DEVELOPMENT_TEAM = FQWVPRQEN6;
 				INFOPLIST_FILE = VSMobileCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cuelogic.VSMobileCenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "11cd3b8d-07c5-440a-9784-eb2862e12781";
+				PROVISIONING_PROFILE_SPECIFIER = Dist_CueWildApp;
 			};
 			name = Release;
 		};
