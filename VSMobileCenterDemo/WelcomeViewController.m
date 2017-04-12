@@ -26,8 +26,8 @@
 - (IBAction)crashClicked:(id)sender
 {
     NSArray *crashArray = [[NSArray alloc]initWithObjects:@"First",@"Second", nil];
-    NSString *str = [crashArray objectAtIndex:23];
-    NSLog(@"%@", str);
+//    NSString *str = [crashArray objectAtIndex:23];
+    NSLog(@"%@", crashArray);
     
 }
 
